@@ -1,15 +1,59 @@
 body {
-    color: aliceblue;
-    background-color: darkblue; /*para navegadores que não suportam gradiente*/
-    background-image: linear-gradient(270deg, rgb(0, 26, 44), rgb(44, 44, 44))
+    color: lightgrey;
+    background-color: rgb(0, 3, 20);
+    height: 100vh;
+}
+.total {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.titulo {
+    background-color: rgba(18, 46, 83, 0.7);
 }
 
 .nome-box {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
 }
 
 .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+.menu-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+ul {
+    list-style-type: none;
+    color: lightgray;
+}
+
+ul a {
+    color: lightgray;
+    text-decoration: none;
+    background-color: rgb(0, 39, 90);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 40px;
 }
