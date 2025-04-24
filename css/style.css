@@ -6,7 +6,6 @@ body {
 .total {
     max-width: 70%;
     margin: auto;
-    padding-top: 2%;
 }
 
 .titulo {
@@ -15,9 +14,6 @@ body {
 
 .titulo-box {
     text-align: left;
-}
-h3 {
-    padding-left: 5px;
 }
 
 .portfolio-link {
@@ -36,44 +32,36 @@ h3 {
     text-align: center;
 }
 
-.texto {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,0%);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: lightgray;
-}
-
 .menu-opcoes {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: 20.6%;
-    left: 50%;
-    transform: translate(-50%,0%);
+    background-color: rgb(82, 102, 117);
+    padding: 5px;
+    
 }
 
 .menu-opcoes ul {
     list-style-type: none;
-    color: lightgray;
+   
 }
 
-.menu-opcoes ul a {
+.menu-opcoes ul li {
+    display: inline;
+}
+
+.menu-opcoes ul li a {
     color: lightgray;
     text-decoration: none;
     background-color: rgb(0, 39, 90);
     padding: 10px 40px;
-    border-radius: 5px;
 }
-
-.menu-opcoes ul li {
-    display: inline-block;
-    padding: 10px 40px;
+.texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
 }
-
 footer {
     position: absolute;
     bottom: 1%;
