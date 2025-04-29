@@ -52,47 +52,99 @@ body {
     text-decoration: none;
     padding: 10px 40px;
 }
+
 .menu-opcoes ul li a:hover {
     background-color: rgb(0, 39, 90);
 }
+
 .texto {
     text-align: center;
     margin: 0%;
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%,0%);  
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: lightgray;
 }
+
+.texto-sobre {
+    margin: 0%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+}
+
 .texto-sobre-formacao {
     margin: 0%;
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%,0%);  
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: lightgray;
 }
+
 footer {
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translate(-50%,-1%);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60%;
 }
 
 .img-sobre {
-    max-width: 150%;
-    max-height: 150%;
+    max-width: 30%;
+    max-height: 30%;
     position: absolute;
     left: 50%;
-    top: 100%;
+    top: 23%;
     transform: translate(-50%,0%);
+    clip-path: circle();
 }
 
 .img-index {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.img-formacao {
+    max-width: 40%;
+    max-height: 40%;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,0%);
+}
+
+.texto-projetos p {
+    text-align: center;
+    margin: 0%;
+    position: absolute;
+    top: 23.8%;
+    left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.tab-projetos {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    width: 30%;
+}
+
+.tab-projetos tr {
+
 }
