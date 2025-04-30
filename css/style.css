@@ -142,9 +142,74 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: lightgray;
-    width: 30%;
+    width: 40%;
+    border-collapse: collapse;
 }
 
-.tab-projetos tr {
+.tab-projetos td {
+    border-bottom: 1px solid white;
+    padding: 20px;   
+}
+.tab-projetos th {
+     text-align: center;
+}
+.tab-projetos a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.tab-projetos a:hover {
+    border-color: lightgray;
+}
 
+.texto-contatos p {
+    text-align: center;
+    margin: 0%;
+    position: absolute;
+    top: 23.8%;
+    left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.tab-contatos {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    width: 40%;
+    border-collapse: collapse;
+}
+
+.tab-contatos td {
+    border-bottom: 1px solid white;
+    padding: 20px;   
+}
+.tab-contatos th {
+     text-align: center;
+}
+.tab-contatos a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.tab-contatos a:hover {
+    border-color: lightgray;
+}
+
+.tab-contatos img {
+    max-width: 5%;
+    max-height: 5%;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 20%;
 }
