@@ -1,26 +1,28 @@
+/*estilização da página*/
 body {
     color: lightgrey;
     background-color: rgb(19, 19, 19);
     margin: 0;
+    max-height: fit-content;
 }
 
+/*estilização do link de início*/
 .inicio-box {
     text-align: left;
     background-color: rgba(18, 46, 83, 0.7);
     padding: 10px;
 }
-
-.portfolio-link {
+.inicio-link {
     text-decoration: none;
     color: lightgray;
     padding: 10px;
     margin-left: 5px;
 }
-
-.portfolio-link:hover {
+.inicio-link:hover {
     background-color: rgb(5, 62, 167);
 }
 
+/*estilização do h1 principal*/
 .nome-box {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -30,33 +32,39 @@ body {
     margin: 0%;
 }
 
+/*estilização dos links de navegação*/
 .menu-opcoes {
     margin: 0%;
     background-color: rgb(41, 89, 126);
 }
-
 .menu-opcoes ul {
     margin: 0%;
     list-style-type: none;
     padding: 10px;
     text-align: center;
 }
-
 .menu-opcoes ul li {
     display: inline-block;
     padding: 0;
 }
-
 .menu-opcoes ul li a {
     color: lightgray;
     text-decoration: none;
     padding: 10px 40px;
 }
-
 .menu-opcoes ul li a:hover {
     background-color: rgb(0, 39, 90);
 }
 
+/*estilização do rodapé da página*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60%;
+    margin-bottom: 1%;
+}
+
+/*estilização do conteúdo principal da página inicial*/
 .texto {
     text-align: center;
     margin: 0%;
@@ -68,7 +76,12 @@ body {
     font-weight: bold;
     color: lightgray;
 }
+.img-index {
+    max-width: 80%;
+    max-height: 80%;
+}
 
+/*estilização do conteúdo principal da página sobre*/
 .texto-sobre {
     margin: 0%;
     position: absolute;
@@ -79,24 +92,6 @@ body {
     font-weight: bold;
     color: lightgray;
 }
-
-.texto-sobre-formacao {
-    margin: 0%;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%,0%);  
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: lightgray;
-}
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 60%;
-}
-
 .img-sobre {
     max-width: 30%;
     max-height: 30%;
@@ -107,11 +102,17 @@ footer {
     clip-path: circle();
 }
 
-.img-index {
-    max-width: 80%;
-    max-height: 80%;
+/*estilização do conteúdo principal da página formação*/
+.texto-formacao {
+    margin: 0%;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
 }
-
 .img-formacao {
     max-width: 40%;
     max-height: 40%;
@@ -122,6 +123,7 @@ footer {
     transform: translate(-50%,0%);
 }
 
+/*estilização do conteúdo principal da página projetos*/
 .texto-projetos p {
     text-align: center;
     margin: 0%;
@@ -133,7 +135,6 @@ footer {
     font-weight: bold;
     color: lightgray;
 }
-
 .tab-projetos {
     position: absolute;
     top: 30%;
@@ -145,7 +146,6 @@ footer {
     width: 40%;
     border-collapse: collapse;
 }
-
 .tab-projetos td {
     border-bottom: 1px solid white;
     padding: 20px;   
@@ -164,6 +164,7 @@ footer {
     border-color: lightgray;
 }
 
+/*estilização do conteúdo principal da página contatos*/
 .texto-contatos p {
     text-align: center;
     margin: 0%;
@@ -175,7 +176,6 @@ footer {
     font-weight: bold;
     color: lightgray;
 }
-
 .tab-contatos {
     position: absolute;
     top: 30%;
@@ -187,7 +187,6 @@ footer {
     width: 40%;
     border-collapse: collapse;
 }
-
 .tab-contatos td {
     border-bottom: 1px solid white;
     padding: 20px;   
@@ -205,7 +204,6 @@ footer {
 .tab-contatos a:hover {
     border-color: lightgray;
 }
-
 .tab-contatos img {
     max-width: 5%;
     max-height: 5%;
