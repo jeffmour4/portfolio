@@ -20,6 +20,7 @@ body {
 }
 .inicio-link:hover {
     background-color: rgb(5, 62, 167);
+    cursor: pointer;
 }
 
 /*estilização do h1 principal*/
@@ -51,6 +52,7 @@ body {
     color: lightgray;
     text-decoration: none;
     padding: 10px 40px;
+    cursor: pointer;
 }
 .menu-opcoes ul li a:hover {
     background-color: rgb(0, 39, 90);
