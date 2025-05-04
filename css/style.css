@@ -1,4 +1,4 @@
-/*estilização da página*/
+/*Estilização geral da página*/
 body {
     color: lightgrey;
     background-color: rgb(19, 19, 19);
@@ -6,7 +6,7 @@ body {
     max-height: fit-content;
 }
 
-/*estilização do link de início*/
+/*Estilização do link de início*/
 .inicio-box {
     text-align: left;
     background-color: rgba(18, 46, 83, 0.7);
@@ -23,7 +23,7 @@ body {
     cursor: pointer;
 }
 
-/*estilização do h1 principal*/
+/*Estilização do h1 principal*/
 .nome-box {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -33,7 +33,7 @@ body {
     margin: 0%;
 }
 
-/*estilização dos links de navegação*/
+/*Estilização dos links de navegação*/
 .menu-opcoes {
     margin: 0%;
     background-color: rgb(41, 89, 126);
@@ -58,7 +58,7 @@ body {
     background-color: rgb(0, 39, 90);
 }
 
-/*estilização do rodapé da página*/
+/*Estilização do rodapé da página*/
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -66,7 +66,8 @@ footer {
     margin-bottom: 1%;
 }
 
-/*estilização do conteúdo principal da página inicial*/
+
+/*Estilização do conteúdo principal da página inicial*/
 .texto {
     text-align: center;
     margin: 0%;
@@ -83,7 +84,8 @@ footer {
     max-height: 80%;
 }
 
-/*estilização do conteúdo principal da página sobre*/
+
+/*Estilização do conteúdo principal da página sobre*/
 .texto-sobre {
     margin: 0%;
     position: absolute;
@@ -104,7 +106,8 @@ footer {
     clip-path: circle();
 }
 
-/*estilização do conteúdo principal da página formação*/
+
+/*Estilização do conteúdo principal da página formação*/
 .texto-formacao {
     margin: 0%;
     position: absolute;
@@ -125,7 +128,8 @@ footer {
     transform: translate(-50%,0%);
 }
 
-/*estilização do conteúdo principal da página projetos*/
+
+/*Estilização do conteúdo principal da página projetos*/
 .texto-projetos p {
     text-align: center;
     margin: 0%;
@@ -137,6 +141,7 @@ footer {
     font-weight: bold;
     color: lightgray;
 }
+/*estilização da tabela de projetos*/
 .tab-projetos {
     position: absolute;
     top: 30%;
@@ -166,7 +171,8 @@ footer {
     border-color: lightgray;
 }
 
-/*estilização do conteúdo principal da página contatos*/
+
+/*Estilização do conteúdo principal da página contatos*/
 .texto-contatos p {
     text-align: center;
     margin: 0%;
@@ -178,6 +184,7 @@ footer {
     font-weight: bold;
     color: lightgray;
 }
+/*estilização da tabela de contatos*/
 .tab-contatos {
     position: absolute;
     top: 30%;
@@ -212,4 +219,37 @@ footer {
     padding: 5px;
     background-color: lightgray;
     border-radius: 20%;
+}
+/*estilização do formulário de mensagens na página contatos*/
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    border: none;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form #input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#form-buttom {
+    background-color: rgb(41, 89, 126);
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+#form-buttom:hover {
+    background-color: rgb(5, 62, 167);
 }

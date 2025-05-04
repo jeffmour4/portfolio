@@ -22,7 +22,7 @@
         </nav>
     </header>
     <main class="texto-contatos"> <!--conteúdo principal da página-->
-        <p>Para me contatar, acesse:</p>
+        <p>Para me contatar acesse minhas redes ou envie uma mensagem</p>
         <table class="tab-contatos"> <!--tabela para organizar conteúdo e links-->
             <tr>
                 <td><img src="img/logo-linkedin-icon-1536-3964382085.png" alt="logo linkedin">&nbsp;&nbsp;Linkedin</td>
@@ -32,9 +32,18 @@
                 <td><img src="img/logo-github.png" alt="logo github">&nbsp;&nbsp;Github</td>
                 <td><a href="https://github.com/jeffmour4" target="_blank">Acessar</a></td>
             </tr>
-        </table>
+        </table> <!--formulário de pensagem de contato-->
+        <form action="" class="form">
+            <label for="name">Nome</label><br>
+            <input id="input" type="text" name="name" size="38" required>
+            <label for="telefone">&nbsp;Telefone</label>
+            <input id="input" type="text" name="telefone" required><br><br>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea id="input" name="mensagem" cols="74" rows="7" required></textarea><br><br>
+            <input type="submit" value="Enviar" id="form-buttom" onclick="trabalhandoNisso()">
+        </form>
     </main>
-    <footer>
+    <footer> <!--rodapé da página-->
         <div>Developed by jeffmour4</div>
         <div>© 2025</div>
     </footer>
